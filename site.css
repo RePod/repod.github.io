@@ -1,0 +1,45 @@
+﻿body { background-color:#0078a4; }
+#container {
+	padding:5px 0px; margin:auto;
+	background-color:white;
+	width:650px;
+	border-radius: 10px;
+}
+#toggle_container { width:650px; margin:auto; position:relative; }
+#toggle_button { background-color:#fff; text-align:center; border-bottom-left-radius:10px; border-bottom-right-radius:10px; width:30px; position:absolute; right:10px; cursor:pointer; }
+.toggle_up { border-width: 0px 10px 10px; border-color: transparent transparent #000 transparent; border-style: solid; width: 0px; height: 0px; top:0px; }
+.toggle_down { }
+#banner, #i_banner, #i_banner1  {
+	margin:auto;
+	width:640px; height:250px; max-width:640px; max-height:250px;
+	border-radius:10px;
+	position:relative;
+}
+#i_banner, #i_banner1  {	max-width:640px; max-height:250px; border:0px; position:absolute; }
+.menuarea { background-color:black; opacity:0.7; position:absolute; left:0px; right:0px; z-index:2; text-align:center; }
+#menu_left { height:100%; width:25%; left:0px; position:absolute; }
+#menu_right{ height:100%; width:25%; right:0px; position:absolute; }
+#menuextras { display:none; }
+#menuarea { border-bottom-left-radius:10px; border-bottom-right-radius:10px; bottom:0px; /*overflow:hidden; white-space: nowrap;*/ }
+#menuarea_top { border-top-left-radius:10px; border-top-right-radius:10px; top:0px; }
+#content { margin:0px 5px 5px 5px; }
+#feeder a:link,#feeder  a:visited,#feeder  a:hover,#feeder  a:active { color:#ffffff; }
+#footer { text-align:center; }
+a:link.menu,a:visited.menu,span.menu {
+	font-weight:bold; cursor:pointer; 
+	color:#ffffff; background-color:#000000;
+	text-align:center; text-decoration:none; text-transform:uppercase;
+	display:inline-block; padding:0px 2px;
+}
+a:hover.menu,a:active.menu { color:#000000; background-color:#ffffff; }
+a:link.big_button,a:visited.big_button {
+	font-weight:bold; text-align:center; text-decoration:none; text-transform:uppercase;
+	background-color:#0078a4; color:#fff; display:inline-block;
+	/*border-width:1px;border-radius:20px;border-style:solid;*/
+	padding:5px 10px;
+	max-height:23px;vertical-align:text-bottom
+}
+a:hover.big_button,a:active.big_button { background-color:#00baff; }
+p.imp { text-align:center; font-weight:bold; font-size:30px; margin:5px; }
+#topics h5 { margin:0px 0px 0px 30px; }
+#answers h5 { margin:0px 0px 0px 0px; text-decoration:underline; }
